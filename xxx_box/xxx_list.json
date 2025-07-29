@@ -4,252 +4,300 @@
   "rom_version": "0.1",
   "xxx": [
     {
-      "name": "Clash",
-      "class": "box",
       "title": "",
-      "data": "http://{$ip$}:9999/ui",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Aria2",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}/img/ariang.html",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Kodbox",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:88/",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Samba",
-      "class": "box",
-      "title": "",
-      "data": "smb://{$ip$}:445",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Docker",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:9001/",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Zerotier",
-      "class": "box",
-      "title": "",
-      "data": "https://my.zerotier.com/login?:9993",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Webshell",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:5913/rtty/admin",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Alist",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:5244/",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "EDU",
-      "class": "box",
-      "title": "",
-      "data": "https://mirror.tuna.tsinghua.edu.cn",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "HUB",
-      "class": "box",
-      "title": "",
-      "data": "https://hub.docker.com/search?type=image&q=",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Webdev",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:81/",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Adguard",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:3000",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Rclone",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:5572",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Netdata",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:19999",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "filebrowser ",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:18888",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "cloudreve",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:5212",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "tailscale",
-      "class": "box",
-      "title": "",
-      "data": "http://{$ip$}:8088",
-      "tag": "",
-      "time": "1"
-    },
-    {
-      "name": "Whistle",
-      "class": "box",
-      "title": "",
-      "data": "javascript:alert('正在开发中...')",
-      "tag": "",
-      "time": "1"
-    },
-    {
+      "time": "1",
       "name": "LED开关",
       "class": "exc",
-      "title": "",
       "data": "/etc/init.d/miled help",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "UCI信息",
       "class": "exc",
-      "title": "",
       "data": "uci show",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "ubus信息",
       "class": "exc",
-      "title": "",
       "data": "ubus -v list",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "USB修复",
       "class": "exc",
-      "title": "",
       "data": "",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "磁盘信息",
       "class": "exc",
-      "title": "",
       "data": "df",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
-      "name": "测试",
-      "class": "mac",
       "title": "",
-      "data": "dc:a9:56:14:a3:45",
-      "tag": "",
-      "time": "1"
-    },
-    {
+      "time": "1",
       "name": "重启",
       "class": "wxexc",
-      "title": "",
       "data": "reboot",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "关机",
       "class": "wxexc",
-      "title": "",
       "data": "poweroff",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "白名单",
       "class": "wxexc",
-      "title": "",
       "data": "du",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "白名单",
       "class": "wxexc",
-      "title": "",
       "data": "df",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "白名单",
       "class": "wxexc",
-      "title": "",
       "data": "free",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "进程",
       "class": "wxexc",
-      "title": "",
       "data": "ps | grep %s",
-      "tag": "",
-      "time": "1"
+      "tag": ""
     },
     {
+      "title": "",
+      "time": "1",
       "name": "终端",
       "class": "wxexc",
-      "title": "",
       "data": "ubus call trafficd hw | jsonfilter -e \"@[*][；%s；]\"",
-      "tag": "",
-      "time": "1"
+      "tag": ""
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "测试",
+      "class": "mac",
+      "data": "mac",
+      "tag": ""
+    },
+    {
+      "title": "",
+      "time": "1726753024604_5265",
+      "name": "Home Assistant ",
+      "class": "box",
+      "data": "http://{$ip$}:9000",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1726633383389_833",
+      "name": "UU加速器",
+      "class": "box",
+      "data": "http://{$ip$}:16363",
+      "tag": "16363"
+    },
+    {
+      "title": "",
+      "time": "1726633049830_3334",
+      "name": "NasCab云可云",
+      "class": "box",
+      "data": "http://{$ip$}:8888",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1718789220291_8792",
+      "name": "迅雷下载",
+      "class": "box",
+      "data": "http://{$ip$}:2345",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "17187892064.2.5832",
+      "name": "sun-panel面板",
+      "class": "box",
+      "data": "http://{$ip$}:3002",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "阿里云盘",
+      "class": "box",
+      "data": "http://{$ip$}:17777",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "微信通知",
+      "class": "box",
+      "data": "http://{$ip$}:66666",
+      "tag": "7.5.8"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "动态DDNS",
+      "class": "box",
+      "data": "http://{$ip$}:16601",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "百度网盘",
+      "class": "box",
+      "data": "http://{$ip$}:5299",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "代理网络",
+      "class": "box",
+      "data": "http://{$ip$}:9999",
+      "tag": "9999"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "FTP文件服务",
+      "class": "box",
+      "data": "http://{$ip$}:21",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "aria2c下载器",
+      "class": "box",
+      "data": "http://{$ip$}/img/ariang.html",
+      "tag": "7.5.8"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "kodcloud可道云",
+      "class": "box",
+      "data": "http://{$ip$}:88/",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Docker容器",
+      "class": "box",
+      "data": "http://{$ip$}:9001/",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Zerotier内网穿透",
+      "class": "box",
+      "data": "https://my.zerotier.com/login?:9993",
+      "tag": "9993"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Alist网盘服务",
+      "class": "box",
+      "data": "http://{$ip$}:5244/",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "EDU清华源",
+      "class": "box",
+      "data": "https://mirror.tuna.tsinghua.edu.cn",
+      "tag": "7.5.8"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "HUB镜像源",
+      "class": "box",
+      "data": "https://hub.docker.com/search?type=image&q=",
+      "tag": "7.5.8"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Webdev共享",
+      "class": "box",
+      "data": "http://{$ip$}:81/",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Ad广告拦截",
+      "class": "box",
+      "data": "http://{$ip$}:3000",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "rclone文件同步",
+      "class": "box",
+      "data": "http://{$ip$}:5572",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Net网络统计",
+      "class": "box",
+      "data": "http://{$ip$}:19999",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "文件服务器",
+      "class": "box",
+      "data": "http://{$ip$}:18888",
+      "tag": "0"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "文件云服务",
+      "class": "box",
+      "data": "http://{$ip$}:5212",
+      "tag": "0"
     }
   ]
 }
